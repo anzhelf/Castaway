@@ -1,0 +1,10 @@
+.episod__button {
+  width: 208px;
+  height: 51px;
+  background-color: #118DA8;
+  color: #FFF;
+}
+
+.episod__button:hover {
+  cursor: pointer;
+}

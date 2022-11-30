@@ -1,0 +1,53 @@
+@import url(fonts/fonts.css);
+
+@import url(blocks/page/page.css);
+
+@import url(blocks/header/header.css);
+@import url(blocks/header/__logo/header__logo.css);
+
+@import url(blocks/content/content.css);
+
+@import url(blocks/menu/__list/menu__list.css);
+@import url(blocks/menu/__link/menu__link.css);
+
+@import url(blocks/social/social.css);
+@import url(blocks/social/__icon-link/social__icon-link.css);
+@import url(blocks/social/__icon/social__icon.css);
+
+@import url(blocks/podcast/podcast.css);
+@import url(blocks/podcast/__art/podcast__art.css);
+@import url(blocks/podcast/__art-rays/podcast__art-rays.css);
+@import url(blocks/podcast/__art-line/podcast__art-line.css);
+@import url(blocks/podcast/__image/podcast__image.css);
+@import url(blocks/podcast/__container/podcast__container.css);
+@import url(blocks/podcast/__title/podcast__title.css);
+@import url(blocks/podcast/__title/__title_select/podcast__title_select.css);
+@import url(blocks/podcast/__subtitle/podcast__subtitle.css);
+
+@import url(blocks/button/button.css);
+
+@import url(blocks/episodes/episodes.css);
+@import url(blocks/episodes/__container-title/episodes__container-title.css);
+@import url(blocks/episodes/__title/episodes__title.css);
+@import url(blocks/episodes/__button/episodes__button.css);
+
+@import url(blocks/episod/episod.css);
+@import url(blocks/episod/__image/episod__image.css);
+@import url(blocks/episod/__content/episod__content.css);
+@import url(blocks/episod/__button-info/episod__button-info.css);
+@import url(blocks/episod/__subtitle/episod__subtitle.css);
+@import url(blocks/episod/__subtitle-select/episod__subtitle-select.css);
+@import url(blocks/episod/__title/episod__title.css);
+@import url(blocks/episod/__paragraph/episod__paragraph.css);
+@import url(blocks/episod/__button/episod__button.css);
+@import url(blocks/episod/__button-link/episod__button-link.css);
+
+li {
+  list-style-type: none;
+}
+
+.paulaner {
+  border: 1px solid purple;
+  padding: 260px 0 201px;
+  display: flex;
+}

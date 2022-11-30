@@ -1,0 +1,7 @@
+.episodes__container-title {
+  padding: 0 0 66px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
