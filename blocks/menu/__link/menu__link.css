@@ -1,13 +1,7 @@
 .menu__link {
-  margin-left: 40px;
   color: #FFF;
   text-decoration: none;
   font-size: 17px;
   line-height: 27px;
   font-weight: 400;
-}
-
-.menu__link:hover {
-  color: #118DA8;
-  cursor: pointer;
 }

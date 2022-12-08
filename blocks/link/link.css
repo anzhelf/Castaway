@@ -1,0 +1,8 @@
+.link {
+  list-style-type: none;
+}
+
+.link:hover {
+  color: #118DA8;
+  cursor: pointer;
+}
