@@ -1,6 +1,8 @@
 # Castaway
-Личный пет проект - повторение
+Сайт о подкастах. Где можно читать полезные статьи по теме, слушать подкасты и даже записать свой.
 
-Проект верстался по [макету "Figma"](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1).
+На данном этапе реализованна верстка по [макету "Figma"](https://www.figma.com/file/i24VftwiSqlXptwvikZqlD/Castaway-%2B?node-id=0%3A1&t=O1PJdMkLJfTPy7QR-0). С использованием HTML и CSS.
 
-<!-- Проект доступен по [ссылке](https://ana-anajel.github.io/mesto/). -->
+В планах - добавить адаптив и интерактивность, смену языка.
+
+Проект доступен по [ссылке](https://ana-anajel.github.io/Castaway).
