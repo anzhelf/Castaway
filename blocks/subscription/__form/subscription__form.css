@@ -1,0 +1,7 @@
+.subscription__form {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 60px 75px 0;
+  width: 522px;
+  height: 252px;
+}

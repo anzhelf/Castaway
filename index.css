@@ -1,4 +1,5 @@
-@import url(fonts/fonts.css);
+@import url(vendor/normalize.css);
+@import url(vendor/fonts/fonts.css);
 
 @import url(blocks/page/page.css);
 
@@ -42,12 +43,25 @@
 @import url(blocks/episod/__button/episod__button.css);
 @import url(blocks/episod/__button-link/episod__button-link.css);
 
+@import url(blocks/paulaner/paulaner.css);
+@import url(blocks/paulaner/__container/paulaner__container.css);
+@import url(blocks/paulaner/__circle/paulaner__circle.css);
+@import url(blocks/paulaner/__img/paulaner__img.css);
+@import url(blocks/paulaner/__subtitle/paulaner__subtitle.css);
+@import url(blocks/paulaner/__title/paulaner__title.css);
+@import url(blocks/paulaner/__paragraph/paulaner__paragraph.css);
+@import url(blocks/paulaner/__image/paulaner__image.css);
+
+@import url(blocks/subscription/__content/subscription__content.css);
+@import url(blocks/subscription/__text-box/subscription__text-box.css);
+@import url(blocks/subscription/__subtitle/subscription__subtitle.css);
+@import url(blocks/subscription/__title/subscription__title.css);
+@import url(blocks/subscription/__form/subscription__form.css);
+@import url(blocks/subscription/__input/subscription__input.css);
+@import url(blocks/subscription/__button/subscription__button.css);
+
+/* @import url(blocks/); */
+
 li {
   list-style-type: none;
-}
-
-.paulaner {
-  border: 1px solid purple;
-  padding: 260px 0 201px;
-  display: flex;
 }

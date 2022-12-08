@@ -1,0 +1,11 @@
+.paulaner__paragraph {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 33px;
+}
+
+.paulaner__paragraph:last-child {
+  margin: 0;
+}

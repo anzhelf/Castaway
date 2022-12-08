@@ -1,0 +1,16 @@
+.subscription__input {
+  width: 522px;
+  height: 82px;
+  background-color: #191919;
+  margin: 0 0 20px 0;
+  border: 1px solid #191919;
+  border-radius: 6px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+
+  box-sizing: border-box;
+  padding-left: 19px;
+}
