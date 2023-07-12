@@ -5,4 +5,4 @@
 
 В планах - добавить адаптив и интерактивность, смену языка.
 
-Проект доступен по [ссылке](https://ana-anajel.github.io/Castaway).
+Проект доступен по [ссылке](https://anzhelf.github.io/Castaway).
