@@ -1,341 +1,567 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castaway</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Castaway</title>
-  <link rel="stylesheet" href="index.css">
-</head>
+  <body class="page">
+    <header class="header">
+      <img
+        class="header__logo logo"
+        src="images/icons/Logo.svg"
+        alt='Logo "Castaway"' />
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="link">
+            <a href="#" class="header__link menu__link link">Home</a>
+          </li>
+          <li class="link">
+            <a href="#" class="header__link menu__link link">Episodes</a>
+          </li>
+          <li class="link">
+            <a href="#" class="header__link menu__link link">About</a>
+          </li>
+          <li class="link">
+            <a href="#" class="header__link menu__link link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body class="page">
+    <main class="content">
+      <section class="podcast">
+        <img
+          class="podcast__art podcast__art-rays"
+          src="images/icons/Rays.svg"
+          alt="Line rays." />
+        <img
+          class="podcast__image"
+          src="images/photo/RecordPodcast.png"
+          alt="Image of a man with headphones and microphone recording a podcast." />
 
-  <header class="header">
+        <div class="podcast__container">
+          <div class="podcast__title-block">
+            <h1 class="podcast__title">
+              Take your podcast to the next
+              <span class="podcast__title_select">level</span>
+            </h1>
+            <img
+              class="podcast__art podcast__art-line"
+              src="images/icons/Line.svg"
+              alt="Graphics rays." />
+          </div>
 
-    <img class="header__logo logo" src="images/Logo.png" alt='Логотип сайта "Castaway"'>
-    <nav class="header__menu menu">
-      <ul class="menu__list">
-        <li class="link"><a href="#" class="header__link menu__link link">Home</a></li>
-        <li class="link"><a href="#" class="header__link menu__link link">Episodes</a></li>
-        <li class="link"><a href="#" class="header__link menu__link link">About</a></li>
-        <li class="link"><a href="#" class="header__link menu__link link">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+          <p class="podcast__subtitle">Listen on</p>
 
-  <main class="content">
+          <ul class="podcast__social social">
+            <li class="link">
+              <a class="social__icon-link" href="#">
+                <img
+                  class="social__icon"
+                  src="images/icons/Spotify.svg"
+                  alt="Icon Spotify" />
+              </a>
+            </li>
 
-    <section class="podcast">
-      <!-- <img class="podcast__art podcast__art-rays" src="images/Rays.png" alt="Графика лучи"> -->
-      <img class="podcast__image" src="images/RecordPodcast.png"
-        alt="Изображение мужчины в наушниках и с микрофоном записывающего подкаст">
+            <li class="link">
+              <a class="social__icon-link" href="#">
+                <img
+                  class="social__icon"
+                  src="images/icons/ShiftyJelly.svg"
+                  alt="иконка приложения ShiftyJelly" />
+              </a>
+            </li>
 
-      <div class="podcast__container">
+            <li class="link">
+              <a class="social__icon-link" href="#">
+                <img
+                  class="social__icon"
+                  src="images/icons/Сloud.svg"
+                  alt="Icon Сloud" />
+              </a>
+            </li>
 
-        <h1 class="podcast__title">
-          Take your podcast to the next <span class="podcast__title_select">level</span>
-        </h1>
-        <!-- <img class="podcast__art podcast__art-line" src="images/Line.png" alt="Графика лучи"> -->
+            <li class="link">
+              <a class="social__icon-link" href="#">
+                <img
+                  class="social__icon"
+                  src="images/icons/ApplePodcasts.svg"
+                  alt="Icon ApplePodcasts" />
+              </a>
+            </li>
 
-        <p class="podcast__subtitle">Listen on</p>
+            <li class="link">
+              <a class="social__icon-link" href="#">
+                <img
+                  class="social__icon"
+                  src="images/icons/Overcast.svg"
+                  alt="Icon Overcast" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <ul class="podcast__social social">
+      <section class="episodes">
+        <div class="episodes__container-title">
+          <h2 class="episodes__title">Latest episodes</h2>
+          <button class="episodes__button">View all episodes</button>
+        </div>
 
-          <li class="link"><a class="social__icon-link" href="#">
-              <img class="social__icon" src="images/Spotify.png" alt="иконка приложения Spotify">
+        <div class="episodes__container">
+          <article class="episod">
+            <img
+              class="episod__image"
+              src="images/photo/Equipment.png"
+              alt="Picture of audio equipment." />
+            <div class="episod__content">
+              <button class="button episod__button-info">Gear</button>
+              <h4 class="episod__subtitle">
+                Episode <span class="episod__subtitle-select">3</span>
+              </h4>
+              <h3 class="episod__title">Should you get outboard audio gear?</h3>
+              <p class="episod__paragraph">
+                Is hardware really worth it when it comes to podcasting? The
+                answer is...it depends. Here's our reasons on why you might want
+                to consider picking something up.
+              </p>
+              <button class="button episod__button">
+                <a class="episod__button-link" href="#" target="_blank"
+                  >View Episode Details</a
+                >
+              </button>
+            </div>
+          </article>
+
+          <article class="episod">
+            <img
+              class="episod__image"
+              src="images/photo/Microphone.png"
+              alt="Microphone image." />
+            <div class="episod__content">
+              <button class="button episod__button-info">Tips & Tricks</button>
+              <h4 class="episod__subtitle">
+                Episode <span class="episod__subtitle-select">2</span>
+              </h4>
+              <h3 class="episod__title">
+                Mic tricks to take you to the next level
+              </h3>
+              <p class="episod__paragraph">
+                Stop rolling with those default settings on your mic. These
+                small tweaks will take you from sounding good to great.
+              </p>
+              <button class="button episod__button">
+                <a class="episod__button-link" href="#" target="_blank"
+                  >View Episode Details</a
+                >
+              </button>
+            </div>
+          </article>
+
+          <article class="episod">
+            <img
+              class="episod__image"
+              src="images/photo/BestMicrophone.png"
+              alt="Image of a man recording a podcast." />
+            <div class="episod__content">
+              <button class="button episod__button-info">Gear</button>
+              <h4 class="episod__subtitle">
+                Episode <span class="episod__subtitle-select">1</span>
+              </h4>
+              <h3 class="episod__title">The best microphone under $200</h3>
+              <p class="episod__paragraph">
+                With so many microphones on the market, how are you supposed to
+                know what's the best? Take a look at our top picks.
+              </p>
+              <button class="button episod__button">
+                <a class="episod__button-link" href="#" target="_blank"
+                  >View Episode Details</a
+                >
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="paulaner">
+        <div class="paulaner__container">
+          <div class="paulaner__circle">
+            <img
+              class="paulaner__img"
+              src="images/icons/Arrow.svg"
+              alt="Link index." />
+          </div>
+
+          <h3 class="paulaner__subtitle">Meet your host</h3>
+          <h2 class="paulaner__title">Jacob Paulaner</h2>
+
+          <p class="paulaner__paragraph">
+            Jacob has a background in audio engineering, and has been podcasting
+            since the early days.
+          </p>
+
+          <p class="paulaner__paragraph">
+            He's here to help you level up your game by sharing everything he's
+            learned along the way.
+          </p>
+        </div>
+        <img
+          class="paulaner__image"
+          src="images/photo/Podcast.png"
+          alt="Image of a man with headphones and microphone recording a podcast." />
+      </section>
+
+      <section class="subscription">
+        <img
+          class="podcast__art subscription__art-rays"
+          src="images/icons/RaysArt.svg"
+          alt="Graphics rays." />
+        <div class="subscription__content">
+          <div class="subscription__text-box">
+            <h3 class="subscription__subtitle">Email Newsletter</h3>
+            <h2 class="subscription__title">Subscribe for updates</h2>
+          </div>
+
+          <form class="subscription__form">
+            <label class="subscription__label">
+              <input
+                class="subscription__input subscription_type_name"
+                placeholder="Name" />
+              <input
+                class="subscription__input subscription_type_email"
+                placeholder="Email" />
+            </label>
+            <button class="subscription__button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="cards">
+        <article class="card">
+          <div class="card__rating-box">
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+          </div>
+          <h3 class="card__title">I can't recommend this podcast enough</h3>
+          <p class="card__subtitle">Betty Lacey</p>
+        </article>
+
+        <article class="card">
+          <div class="card__rating-box">
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+          </div>
+          <h3 class="card__title">Jacob is the best in the business</h3>
+          <p class="card__subtitle">Adam Driver</p>
+        </article>
+
+        <article class="card">
+          <div class="card__rating-box">
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+          </div>
+          <h3 class="card__title">A wealth of audio knowledge</h3>
+          <p class="card__subtitle">Marcus Brown</p>
+        </article>
+
+        <article class="card">
+          <div class="card__rating-box">
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+          </div>
+          <h3 class="card__title">Every episode is a gem!</h3>
+          <p class="card__subtitle">Jessica Knowl</p>
+        </article>
+
+        <article class="card">
+          <div class="card__rating-box">
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+          </div>
+          <h3 class="card__title">Whoa whoa, let me take some notes!</h3>
+          <p class="card__subtitle">Scott Adams</p>
+        </article>
+
+        <article class="card">
+          <div class="card__rating-box">
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+            <img
+              src="images/icons/Star.svg"
+              alt="
+Yellow star to indicate rating."
+              class="card__rating" />
+          </div>
+          <h3 class="card__title">
+            I've upped my game considerably since I started listening
+          </h3>
+          <p class="card__subtitle">Steven Blast</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <img
+          class="footer__logo logo"
+          src="images/icons/Logo-footer.svg"
+          alt='"Castaway" website logo.' />
+
+        <ul class="social">
+          <li class="link">
+            <a class="link" href="#">
+              <img
+                class="social__icon"
+                src="images/icons/Instagram.svg"
+                alt="Icon Instagram." />
             </a>
           </li>
 
           <li class="link">
-            <a class="social__icon-link" href="#">
-              <img class="social__icon" src="images/ShiftyJelly.png" alt="иконка приложения ShiftyJelly">
+            <a class="link" href="#">
+              <img
+                class="social__icon"
+                src="images/icons/Twitter.svg"
+                alt="Icon Twitter." />
             </a>
           </li>
 
-          <li class="link"><a class="social__icon-link" href="#">
-              <img class="social__icon" src="images/Сloud.png" alt="иконка приложения Сloud">
+          <li class="link">
+            <a class="link" href="#">
+              <img
+                class="social__icon"
+                src="images/icons/Facebook.svg"
+                alt="Icon Facebook." />
             </a>
           </li>
-
-          <li class="link"><a class="social__icon-link" href="#">
-              <img class="social__icon" src="images/ApplePodcasts.png" alt="иконка приложения ApplePodcasts">
-            </a>
-          </li>
-
-          <li class="link"><a class="social__icon-link" href="#">
-              <img class="social__icon" src="images/Overcast.png" alt="иконка приложения Overcast">
-            </a>
-          </li>
-
         </ul>
-
       </div>
 
-    </section>
+      <nav class="footer__menu">
+        <ul class="footer__list">
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Home</a>
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Episodes</a>
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">About</a>
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-    <section class="episodes">
-      <div class='episodes__container-title'>
-        <h2 class="episodes__title">Latest episodes</h2>
-        <button class="episodes__button">View all episodes</button>
-      </div>
+      <nav class="footer__menu">
+        <ul class="footer__list">
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Style Guide</a>
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Instructions</a>
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Changelog</a>
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Credit</a>
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link"
+              >Powered by Webflow</a
+            >
+          </li>
+          <li class="link">
+            <a href="#" class="footer__link menu__link link">Licenses</a>
+          </li>
+        </ul>
+      </nav>
 
-      <div class="episodes__container">
-
-        <article class="episod">
-          <img class="episod__image" src="images/Equipment.png" alt="Изображение аудио оборудования">
-          <div class="episod__content">
-            <button class="button episod__button-info">Gear</button>
-            <h4 class="episod__subtitle">Episode <span class="episod__subtitle-select">3</span></h4>
-            <h3 class="episod__title">Should you get outboard audio gear?</h3>
-            <p class="episod__paragraph">
-              Is hardware really worth it when it comes to podcasting?
-              The answer is...it depends.
-              Here's our reasons on why you might want to consider picking something up.
-            </p>
-            <button class="button episod__button"><a class="episod__button-link" href="#" target="_blank">View Episode
-                Details</a></button>
-          </div>
-        </article>
-
-        <article class="episod">
-          <img class="episod__image" src="images/Microphone.png" alt="Изображение микрофона">
-          <div class="episod__content">
-            <button class="button episod__button-info">Tips & Tricks</button>
-            <h4 class="episod__subtitle">Episode <span class="episod__subtitle-select">2</span></h4>
-            <h3 class="episod__title">Mic tricks to take you to the next level</h3>
-            <p class="episod__paragraph">
-              Stop rolling with those default settings on your mic.
-              These small tweaks will take you from sounding good to great.
-            </p>
-            <button class="button episod__button"><a class="episod__button-link" href="#" target="_blank">View Episode
-                Details</a></button>
-          </div>
-        </article>
-
-        <article class="episod">
-          <img class="episod__image" src="images/BestMicrophone.png" alt="Изображение мужчины, записывающего подкаст">
-          <div class="episod__content">
-            <button class="button episod__button-info">Gear</button>
-            <h4 class="episod__subtitle">Episode <span class="episod__subtitle-select">1</span></h4>
-            <h3 class="episod__title">The best microphone under $200</h3>
-            <p class="episod__paragraph">
-              With so many microphones on the market,
-              how are you supposed to know what's the best? Take a look at our top picks.
-            </p>
-            <button class="button episod__button"><a class="episod__button-link" href="#" target="_blank">View Episode
-                Details</a></button>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="paulaner">
-
-      <div class="paulaner__container">
-        <div class="paulaner__circle">
-          <img class="paulaner__img" src="images/Arrow.png" alt="Указатель ссылки">
-        </div>
-
-        <h3 class="paulaner__subtitle">Meet your host</h3>
-        <h2 class="paulaner__title">Jacob Paulaner</h2>
-
-        <p class="paulaner__paragraph">
-          Jacob has a background in audio engineering, and has been podcasting since the early days.
-        </p>
-
-        <p class="paulaner__paragraph">
-          He's here to help you level up your game by sharing everything he's learned along the way.
-        </p>
-
-      </div>
-      <img class="paulaner__image" src="images/Podcast.png"
-        alt="Изображение мужчины в наушниках и с микрофоном записывающего подкаст">
-    </section>
-
-    <section class="subscription">
-      <!-- <img class="podcast__art podcast__art-rays" src="images/RaysArt.png" alt="Графика лучи"> -->
-      <div class="subscription__content">
-
-        <div class="subscription__text-box">
-          <h3 class="subscription__subtitle">Email Newsletter</h3>
-          <h2 class="subscription__title">Subscribe for updates</h2>
-        </div>
-
-        <form class="subscription__form">
-          <label class="subscription__label">
-            <input class="subscription__input subscription_type_name" placeholder="Name">
-            <input class="subscription__input subscription_type_email" placeholder="Email">
-          </label>
-          <button class="subscription__button">Submit</button>
-        </form>
-
-      </div>
-
-    </section>
-
-    <section class="cards">
-
-      <article class="card">
-        <div class="card__rating-box">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-        </div>
-        <h3 class="card__title">I can't recommend this podcast enough</h3>
-        <p class="card__subtitle">Betty Lacey</p>
-      </article>
-
-      <article class="card">
-        <div class="card__rating-box">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-        </div>
-        <h3 class="card__title">Jacob is the best in the business</h3>
-        <p class="card__subtitle">Adam Driver</p>
-      </article>
-
-      <article class="card">
-        <div class="card__rating-box">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-        </div>
-        <h3 class="card__title">A wealth of audio knowledge</h3>
-        <p class="card__subtitle">Marcus Brown</p>
-      </article>
-
-      <article class="card">
-        <div class="card__rating-box">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-        </div>
-        <h3 class="card__title">Every episode is a gem!</h3>
-        <p class="card__subtitle">Jessica Knowl</p>
-      </article>
-
-      <article class="card">
-        <div class="card__rating-box">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-        </div>
-        <h3 class="card__title">Whoa whoa, let me take some notes!</h3>
-        <p class="card__subtitle">Scott Adams</p>
-      </article>
-
-      <article class="card">
-        <div class="card__rating-box">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-          <img src="images/Star.png" alt="Желтая звезда для обозначения рейтинга" class="card__rating">
-        </div>
-        <h3 class="card__title">I've upped my game considerably since I started listening</h3>
-        <p class="card__subtitle">Steven Blast</p>
-      </article>
-
-    </section>
-
-  </main>
-
-  <footer class="footer">
-
-    <div class="footer__container">
-
-      <img class="footer__logo logo" src="images/Logo-footer.png" alt='Логотип сайта "Castaway" '>
-
-      <ul class="social">
-
+      <ul class="footer__social social">
         <li class="link">
           <a class="link" href="#">
-            <img class="social__icon" src="images/Instagram.png" alt="иконка приложения Instagram">
+            <img
+              class="social__icon"
+              src="images/icons/Spotify.svg"
+              alt="Icon Spotify." />
           </a>
         </li>
 
         <li class="link">
           <a class="link" href="#">
-            <img class="social__icon" src="images/Twitter.png" alt="иконка приложения Twitter">
+            <img
+              class="social__icon"
+              src="images/icons/ShiftyJelly.svg"
+              alt="Icon ShiftyJelly." />
           </a>
         </li>
 
         <li class="link">
           <a class="link" href="#">
-            <img class="social__icon" src="images/Facebook.png" alt="иконка приложения Facebook">
+            <img
+              class="social__icon"
+              src="images/icons/Сloud.svg"
+              alt="Icon Сloud." />
           </a>
         </li>
 
+        <li class="link">
+          <a class="link" href="#">
+            <img
+              class="social__icon"
+              src="images/icons/ApplePodcasts.svg"
+              alt="Icon ApplePodcasts." />
+          </a>
+        </li>
+
+        <li class="link">
+          <a class="link" href="#">
+            <img
+              class="social__icon"
+              src="images/icons/Overcast.svg"
+              alt="Icon Overcast." />
+          </a>
+        </li>
       </ul>
-    </div>
-
-    <nav class="footer__menu">
-      <ul class="footer__list">
-        <li class="link"><a href="#" class="footer__link menu__link link">Home</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">Episodes</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">About</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">Contact</a></li>
-      </ul>
-    </nav>
-
-    <nav class="footer__menu">
-      <ul class="footer__list">
-        <li class="link"><a href="#" class="footer__link menu__link link">Style Guide</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">Instructions</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">Changelog</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">Credit</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">Powered by Webflow</a></li>
-        <li class="link"><a href="#" class="footer__link menu__link link">Licenses</a></li>
-      </ul>
-    </nav>
-
-    <ul class="footer__social social">
-      <li class="link">
-        <a class="link" href="#">
-          <img class="social__icon" src="images/Spotify.png" alt="иконка приложения Spotify">
-        </a>
-      </li>
-
-      <li class="link">
-        <a class="link" href="#">
-          <img class="social__icon" src="images/ShiftyJelly.png" alt="иконка приложения ShiftyJelly">
-        </a>
-      </li>
-
-      <li class="link">
-        <a class="link" href="#">
-          <img class="social__icon" src="images/Сloud.png" alt="иконка приложения Сloud">
-        </a>
-      </li>
-
-      <li class="link">
-        <a class="link" href="#">
-          <img class="social__icon" src="images/ApplePodcasts.png" alt="иконка приложения ApplePodcasts">
-        </a>
-      </li>
-
-      <li class="link">
-        <a class="link" href="#">
-          <img class="social__icon" src="images/Overcast.png" alt="иконка приложения Overcast">
-        </a>
-      </li>
-
-    </ul>
-
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>

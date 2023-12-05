@@ -1,6 +1,10 @@
 .paulaner__circle {
   border-radius: 50%;
-  background-color: #118DA8;
+  background-color: #118da8;
   width: 112px;
   height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }

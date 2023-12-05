@@ -1,11 +1,16 @@
 .episodes__button {
   height: 51px;
   width: 178px;
-  background-color: #118DA8;
+  background-color: #118da8;
   color: #fff;
   font-weight: 400;
   font-size: 17px;
   line-height: 27px;
   border: none;
   border-radius: 6px;
+  cursor: pointer;
+}
+
+.episodes__button:hover {
+  opacity: 0.8;
 }
