@@ -1,8 +1,12 @@
 # Castaway
 Сайт о подкастах. Где можно читать полезные статьи по теме, слушать подкасты и даже записать свой.
 
-На данном этапе реализованна верстка по [макету "Figma"](https://www.figma.com/file/i24VftwiSqlXptwvikZqlD/Castaway-%2B?node-id=0%3A1&t=O1PJdMkLJfTPy7QR-0). С использованием HTML и CSS.
+- свёрстаны элементы страницы на HTML5 и CSS3;
+- применена методология БЭМ;
 
-В планах - добавить адаптив и интерактивность, смену языка.
+## Инструменты и стек:
+`HTML5` `CSS3` `Flex` `BEM`
 
-Проект доступен по [ссылке](https://anzhelf.github.io/Castaway).
+Проект был сверстан по [макету "Figma"](https://www.figma.com/file/i24VftwiSqlXptwvikZqlD/Castaway-%2B?node-id=0%3A1&t=O1PJdMkLJfTPy7QR-0).
+
+Проект завершён и доступен по [ссылке](https://anzhelf.github.io/Castaway).
